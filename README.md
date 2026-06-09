@@ -16,7 +16,6 @@ Algoritmo-PAA/
 │   ├── huffman_main.py      # pipeline completo: build → encode → decode
 │   └── huffman_node.py      # nó da árvore binária de Huffman
 ├── huffman_output.txt        # saída gerada pelas instâncias de teste
-├── EXPLICACAO.md             # documentação matemática detalhada
 └── README.md
 ```
 
