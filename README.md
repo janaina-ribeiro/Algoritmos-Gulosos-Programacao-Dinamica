@@ -8,23 +8,6 @@ Implementação e análise de dois algoritmos clássicos:
 
 ---
 
-## Estrutura do Projeto
-
-```
-Algoritmo-PAA/
-├── huffman-coding/
-│   ├── huffman_main.py      # pipeline completo: build → encode → decode
-│   └── huffman_node.py      # nó da árvore binária de Huffman
-├── lis-coding/
-│   ├── lis_main.py          # DP bottom-up + força bruta para verificação
-│   ├── lis_output.txt       # saída gerada pelas instâncias de teste
-│   └── LIS_explicacao.md   # documentação matemática detalhada
-├── huffman_output.txt        # saída gerada pelas instâncias de teste
-├── EXPLICACAO.md             # documentação matemática do Huffman
-└── README.md
-```
-
----
 
 ## Como Executar
 
