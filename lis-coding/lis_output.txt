@@ -1,0 +1,90 @@
+  INSTÂNCIA 01: Exemplo clássico
+
+  Entrada (8 elementos): [10, 9, 2, 5, 3, 7, 101, 18]
+
+  DP  Comprimento da LIS : 4
+  DP  Subsequência       : [2, 5, 7, 101]
+  DP  Comparações        : 45
+  DP  Tempo de execução  : 16.900 µs  (0.00001690 s)
+
+  BF  Comprimento da LIS : 4
+  BF  Subsequência       : [2, 5, 7, 101]
+  BF  Operações          : 2040
+  BF Tempo de execução  : 338.100 µs  (0.00033810 s)
+
+  Verificação DP x BF      : CORRETO
+
+-----------------------------------------------------------------
+
+  INSTÂNCIA 02: Sequência já crescente
+
+  Entrada (8 elementos): [1, 2, 3, 4, 5, 6, 7, 8]
+
+  DP  Comprimento da LIS : 8
+  DP  Subsequência       : [1, 2, 3, 4, 5, 6, 7, 8]
+  DP  Comparações        : 56
+  DP  Tempo de execução  : 8.000 µs  (0.00000800 s)
+
+  BF  Comprimento da LIS : 8
+  BF  Subsequência       : [1, 2, 3, 4, 5, 6, 7, 8]
+  BF  Operações          : 2040
+  BF Tempo de execução  : 374.700 µs  (0.00037470 s)
+
+  Verificação DP x BF      : CORRETO
+
+-----------------------------------------------------------------
+
+  INSTÂNCIA 03: Sequência decrescente
+
+  Entrada (8 elementos): [8, 7, 6, 5, 4, 3, 2, 1]
+
+  DP  Comprimento da LIS : 1
+  DP  Subsequência       : [8]
+  DP  Comparações        : 28
+  DP  Tempo de execução  : 3.600 µs  (0.00000360 s)
+
+  BF  Comprimento da LIS : 1
+  BF  Subsequência       : [8]
+  BF  Operações          : 2040
+  BF Tempo de execução  : 327.600 µs  (0.00032760 s)
+
+  Verificação DP x BF      : CORRETO
+
+-----------------------------------------------------------------
+
+  INSTÂNCIA 04: Elementos repetidos
+
+  Entrada (5 elementos): [5, 5, 5, 5, 5]
+
+  DP  Comprimento da LIS : 1
+  DP  Subsequência       : [5]
+  DP  Comparações        : 10
+  DP  Tempo de execução  : 2.200 µs  (0.00000220 s)
+
+  BF  Comprimento da LIS : 1
+  BF  Subsequência       : [5]
+  BF  Operações          : 155
+  BF Tempo de execução  : 32.000 µs  (0.00003200 s)
+
+  Verificação DP x BF      : CORRETO
+
+-----------------------------------------------------------------
+
+  INSTÂNCIA 05: Um único elemento
+
+  Entrada (1 elementos): [42]
+
+  DP  Comprimento da LIS : 1
+  DP  Subsequência       : [42]
+  DP  Comparações        : 0
+  DP  Tempo de execução  : 1.300 µs  (0.00000130 s)
+
+  BF  Comprimento da LIS : 1
+  BF  Subsequência       : [42]
+  BF  Operações          : 1
+  BF Tempo de execução  : 1.500 µs  (0.00000150 s)
+
+  Verificação DP x BF      : CORRETO
+
+-----------------------------------------------------------------
+
